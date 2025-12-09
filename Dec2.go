@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func main() {
+func Dec2() {
 
 	f, err := os.ReadFile("dec2Input.txt")
 	if err != nil {

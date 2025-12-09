@@ -9,7 +9,7 @@ import (
 	"unicode"
 )
 
-func main() {
+func Dec6() {
 	Dec6Part1()
 	Dec6Part2()
 }

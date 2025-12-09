@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func main() {
+func Dec1() {
 
 	//need to read the prefix (L OR R), convert the rest of the string to int
 	//need to calculate, we are going from 0-99, how many 0 does it land on?

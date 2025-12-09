@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main() {
+func Dec3() {
 	part1()
 	part2()
 

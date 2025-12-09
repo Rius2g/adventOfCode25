@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-func main() {
+func Dec5() {
 	////	Dec5Part1()
 	Dec5part2()
 }

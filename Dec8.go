@@ -63,7 +63,7 @@ func Distance3D(p1, p2 Point3D) float64 {
 	return math.Sqrt(dx*dx + dy*dy + dz*dz)
 }
 
-func main() {
+func Dec8() {
 	points := parseInput("dec8Input.txt")
 	edges := buildEdges(points)
 
@@ -78,12 +78,8 @@ func main() {
 		return edges[a].Dist < edges[b].Dist
 	})
 
-	// Part 1 (what you already did): 1000 connections, product of 3 largest circuits
-	// You can comment this out if you’re done with part 1.
 	dec8part1(points, edges)
 
-	// Part 2: keep connecting until everything is one circuit;
-	// report the pair that finished the job.
 	dec8part2(points, edges)
 }
 
