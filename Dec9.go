@@ -17,7 +17,7 @@ type GridCoord struct {
 	X, Y int
 }
 
-func main() {
+func dec9() {
 	//Dec9Part1()
 	Dec9Part2()
 }
